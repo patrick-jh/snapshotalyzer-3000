@@ -14,4 +14,7 @@ Shot uses the configuration file created by the AWS CLI e.g.
 
 ## Running
 
-`pipenv run "python shot/shot.py”`
+`pipenv run python shot/shot.py <command> <--project=PROJECT`
+
+*command* is list, start, stop
+*project* is optional
