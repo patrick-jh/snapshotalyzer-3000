@@ -16,5 +16,5 @@ Shot uses the configuration file created by the AWS CLI e.g.
 
 `pipenv run python shot/shot.py <command> <--project=PROJECT`
 
-*command* is list, start, stop
+*command* is instances, volumes, or snapshots
 *project* is optional
