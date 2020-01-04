@@ -131,7 +131,7 @@ def stop_instances(project):
         print("Stopping {0}...".format(i.id))
         try:
             i.stop()
-        except botocore.exceptions,ClientError as e:
+        except botocore.exceptions.ClientError as e:
             print(" Could not stop {0}.".format(i.id) + str(e))
             continue
 
