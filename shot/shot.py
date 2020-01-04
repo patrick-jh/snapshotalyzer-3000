@@ -148,7 +148,7 @@ def stop_instances(project):
         print("Starting {0}...".format(i.id))
         try:
             i.start()
-        except botocore.exceptions,ClientError as e:
+        except botocore.exceptions.ClientError as e:
             print(" Could not start {0}.".format(i.id) + str(e))
             continue
 
